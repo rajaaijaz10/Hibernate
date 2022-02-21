@@ -1,0 +1,21 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="com.costaff.xml.domain.Employee">
+        <id name="id" />
+        <property name="firstName"/>
+        <property name="lastName"/>
+        <property name="department"/>
+        <property name="salary"/>
+        <property name="email"/>
+        <property name="password"/>
+        <property name="admin"/>
+
+
+
+    </class>
+</hibernate-mapping>
+<!--        private String firstName;-->
+<!--        private String firstName;-->
+<!--        private String department;-->
+<!--        private int salary;-->
+<!--        private String email;-->
+<!--        private String password;-->
